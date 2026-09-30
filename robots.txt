@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://diegolinares11.github.io/prados-de-sisbal/sitemap.xml

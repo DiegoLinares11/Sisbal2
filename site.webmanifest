@@ -1,0 +1,13 @@
+{
+  "name": "Prados de Sisbal",
+  "short_name": "Sisbal",
+  "description": "Lotes de 200 m² en Aldea Tontem, Cobán, Alta Verapaz.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#382200",
+  "icons": [
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "assets/img/icono-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
