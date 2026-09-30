@@ -39,10 +39,16 @@ Luego abrir <http://localhost:8765>.
 
 ## Publicarlo
 
-El sitio está listo para **GitHub Pages**: en el repositorio, *Settings → Pages → Deploy from a branch*,
-rama `main` y carpeta `/ (root)`. Queda en `https://diegolinares11.github.io/prados-de-sisbal/`.
+El sitio está publicado en **Vercel**, en el proyecto `prados-de-sisbal`:
+<https://prados-de-sisbal.vercel.app>
 
-Si se publica en otra dirección (por ejemplo un dominio propio), hay que cambiar esa URL en:
+Para subir cambios desde la carpeta del proyecto:
+
+```bash
+npx vercel deploy --prod
+```
+
+Si se cambia a otra dirección (por ejemplo un dominio propio), hay que cambiar esa URL en:
 
 - `index.html`: `canonical`, las etiquetas `og:` y el bloque `application/ld+json`
 - `robots.txt` y `sitemap.xml`
